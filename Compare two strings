@@ -5,9 +5,9 @@ int main() {
     int i = 0;
 
     printf("Enter first string: ");
-    gets(str1);
+    fgets(str1, 50, stdin);
     printf("Enter second string: ");
-    gets(str2);
+    fgets(str1, 50, stdin);
 
     while(str1[i] == str2[i] && str1[i] != '\0') {
         i++;
