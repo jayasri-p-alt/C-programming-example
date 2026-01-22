@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+struct bank {
+    int acc;
+    char name[20];
+    float bal;
+};
+
+int main() {
+    struct bank b;
+    scanf("%d %s %f", &b.acc, b.name, &b.bal);
+    printf("Acc:%d Name:%s Balance:%.2f", b.acc, b.name, b.bal);
+}
