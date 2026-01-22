@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+struct student {
+    int m1, m2, m3;
+};
+
+int main() {
+    struct student s;
+    int total;
+    scanf("%d %d %d", &s.m1, &s.m2, &s.m3);
+    total = s.m1 + s.m2 + s.m3;
+    printf("Total = %d", total);
+}
