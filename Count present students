@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int total, present;
+
+    printf("Enter total students: ");
+    scanf("%d", &total);
+
+    printf("Enter present students: ");
+    scanf("%d", &present);
+
+    printf("Number of present students = %d\n", present);
+    return 0;
+}
