@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+struct ticket {
+    int seat;
+    char name[20];
+};
+
+int main() {
+    struct ticket t;
+    scanf("%d %s", &t.seat, t.name);
+    printf("%d %s", t.seat, t.name);
+}
