@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int n,i;
+    float sale[10], total=0;
+
+    printf("Enter days: ");
+    scanf("%d",&n);
+
+    for(i=0;i<n;i++){
+        scanf("%f",&sale[i]);
+        total += sale[i];
+    }
+
+    printf("Total Sales = %.2f", total);
+}
