@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+struct mobile {
+    char brand[20];
+    float price;
+};
+
+int main() {
+    struct mobile m;
+    scanf("%s %f", m.brand, &m.price);
+    printf("%s %.2f", m.brand, m.price);
+}
