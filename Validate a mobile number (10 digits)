@@ -5,7 +5,8 @@ int main() {
     int i, count = 0, flag = 1;
 
     printf("Enter mobile number: ");
-    gets(mobile);
+    fgets(str, 100, stdin);
+
 
     for(i = 0; mobile[i] != '\0'; i++) {
         if(mobile[i] < '0' || mobile[i] > '9') {
